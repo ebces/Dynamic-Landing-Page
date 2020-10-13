@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand-Regular.otf);
+}
+
+.main {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.greeting {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.objectives {
+    font-size: 30px;
+    text-align: center;
+}
+
+.objectives__answer {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .clock {
+        font-size: 45px;
+    }
+}
