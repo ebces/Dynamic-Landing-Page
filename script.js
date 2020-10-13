@@ -3,6 +3,7 @@ const time = document.querySelector('.clock__time');
 const greeting = document.querySelector('.greeting__greeting-type');
 const name = document.querySelector('.greeting__name');
 const answer = document.querySelector('.objectives__answer');
+const wrapper = document.querySelector('.wrapper');
 
 const makeTimeString = () => {
   const date = new Date();
@@ -68,3 +69,5 @@ setInterval(() => {
   changeGreeting(hour);
   changeBackground(hour);
 }, 1000);
+
+setTimeout(()=> wrapper.classList.remove('wrapper'), 1000);

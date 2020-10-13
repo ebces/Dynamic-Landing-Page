@@ -2,6 +2,9 @@
     font-family: 'Quicksand';
     src: url(assets/fonts/Quicksand-Regular.otf);
 }
+.wrapper {
+    opacity: 0;
+}
 
 .main {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
