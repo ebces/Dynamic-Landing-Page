@@ -1,4 +1,4 @@
-const main = document.getElementsByTagName('body')[0];
+const [main] = document.getElementsByTagName('body');
 const time = document.querySelector('.clock__time');
 const greeting = document.querySelector('.greeting__greeting-type');
 const name = document.querySelector('.greeting__name');
